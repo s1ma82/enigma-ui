@@ -1,0 +1,14 @@
+[enigma-ui="link"]{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    box-sizing: border-box;
+    &.decor{
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

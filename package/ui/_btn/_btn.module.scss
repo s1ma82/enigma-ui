@@ -1,0 +1,24 @@
+[enigma-ui="btn"] {
+    color: var(--color-green);
+    border: 2px solid var(--color-green);
+    border-radius: 6px;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s, scale 0s;
+
+    &:hover{
+        color: var(--color-primary);
+        background: var(--color-green);
+        border-color: transparent;
+        transition: .3s;
+    }
+    &:active{
+        opacity: .97;
+        transition: 0s;
+        transform: scale(.95);
+    }
+}

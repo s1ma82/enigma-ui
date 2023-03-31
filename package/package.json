@@ -1,0 +1,41 @@
+{
+  "name": "enigma-ui",
+  "version": "0.0.1",
+  "description": "This is a simple user interface for quickly creating jsx components",
+  "main": "index",
+  "access": "public",
+  "type": "module",
+  "scripts": {
+    "build": "@babel/cli --presets @babel/preset-react index.js --out-dir dist ",
+    "gen": "generate-react component",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "ignore": [
+      "templates",
+      "generate-react-cli.json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s1ma82/enigma-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "enigma",
+    "enigma-ui",
+    "s1ma82"
+  ],
+  "author": "s1ma82 (s1mahochukvas@vk.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s1ma82/enigma-ui/issues"
+  },
+  "homepage": "https://github.com/s1ma82/enigma-ui#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  },
+  "devDependencies": {
+    "generate-react-cli": "^8.2.0"
+  }
+}
